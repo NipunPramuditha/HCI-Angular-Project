@@ -1,0 +1,339 @@
+
+  <html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimal-ui" />
+        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+    </head>
+
+<body>
+  <mat-drawer-container class="example-container, autosize" >
+    <div class="example-sidenav-content">
+        <p align="center" style="background-color: black;color:white;font-size: 40px">WPC School Management System</p>
+        
+    <button type="button" mat-button (click)="drawer.toggle()" style="color: white;background-color:black">
+        
+        <img src="../assets/img/menu.png" style="height: 20%;width:10%;"align="left" >
+       
+
+    </button>
+    
+    </div>
+
+    <mat-drawer #drawer class="button,auto" mode="side"  style="background-color: black;color:white;width: auto;height: 100%;">
+    
+         <div style="width: 325px;height: fix;">
+           <br>
+            <h3 align=center>Main Menu</h3>
+            <button class="button"style="background:#303f9f;color: white;hover:"><span>Teacher portal</span></button> <br>
+            <button class="button"style="background:#64dd17;color: white;hover:"><span>Student portal</span></button> <br>
+            <button class="button"style="background:#e65c00b7;color: white;hover:"><span>Class portal </span></button> <br>
+            <button class="button"style="background:#ff9100;color: white;hover:"><span>Fee portal</span></button><br>
+            <button class="button"style="background:#321911;color: white;hover:"><span>Course portal</span></button><br>
+            <button class="button"style="background:#ff4081;color: white;hover:"><span>Result portal</span></button><br>
+            <button class="button"style="background:#26a69a;color: white;hover:"><span>Report portal</span></button><br>
+            <button class="button"style="background:#ab47bc;color: white;hover:"><span> Settings</span></button><br>
+            <button class="button"style="background:#d50000;color: white;hover:"><span>Quit</span></button>
+
+        </div>
+  
+                
+    </mat-drawer>
+<div class="col-md-12" style="background-color: white">
+        <div class="cardn">
+                <div  class="row"> 
+                    <div  class="col-md-10" style="background-color: rgb(237, 235, 245); padding: 1%; height: 3%;">
+                        <h3><b>Dashboard</b></h3> 
+                    </div> 
+
+                    <div  class="col-md-2" style="background-color: rgb(237, 235, 245); padding: 12px; padding-left: 100px">  
+                        <button mat-stroked-button color="primary" style="background-color: #F77E7E;color: white;font-size: 16px; height: 40px; width: 120px;" onclick="document.getElementById('modal-wrapper4').style.display='block'" >Notices</button>
+                    </div>
+                </div>  
+        </div>                      
+                            
+
+        <div>
+            <div class="row">
+            
+                <div class="col-md-7">
+                                            
+                        <br>
+                                
+                        <div style="padding: 3%">
+                                <div class="cardn">
+                                        <div class="containern" style="background-color: rgb(207, 207, 235); padding: 3%">
+                                        <h4><b>Year - 2019 | Month - September</b></h4> 
+                                        </div>
+                                    </div>
+                        <table class="table table-bordered" style="background-color: rgb(234, 234, 245); border-spacing: 10%">
+                            <div class="week">
+                                <div style="padding: 5%" class="week-day">Sunday</div>
+                                <div style="padding: 5%" class="week-day">Monday</div>
+                                <div style="padding: 5%" class="week-day">Tuesday</div>
+                                <div style="padding: 5%" class="week-day">Wednesday</div>
+                                <div style="padding: 5%" class="week-day">Thursday</div>
+                                <div style="padding: 5%" class="week-day">Friday</div>
+                                <div style="padding: 5%" class="week-day">Saturday</div>  
+                            </div>
+                            <div class="week">
+                                <div class="day">
+                                <h3 class="day-label">1</h3>              
+                                </div>
+                                <div class="day">
+                                <h3 class="day-label">2</h3>
+                                <div class="event event-start event-end" data-span="1">Lecture A1</div>
+
+                                </div>
+                                <div class="day">
+                                <div class="event event-start event-end" data-span="1">Lecture C1</div>
+                                <h3 class="day-label">3</h3>
+                            
+                                </div>
+                                <div class="day">
+                                <h3 class="day-label">4</h3>
+                                
+                                </div>
+                                <div class="day">
+                                <h3 class="day-label">5</h3>
+                                
+                                </div>
+                                <div class="day">                    
+                                <h3 class="day-label">6</h3>
+                                
+                            
+                                </div>
+                                <div class="day">
+                                <h3 class="day-label">7</h3>
+                                
+                            
+                                </div>
+                            </div>
+
+
+                            <div class="week">
+                                    <div class="day">
+                                    <h3 class="day-label">8</h3>
+                                    </div>
+                                    <div class="day">
+                                    <h3 class="day-label">9</h3>
+                                    </div>
+                                    <div class="day">
+                                    <h3 class="day-label">10</h3>
+                                    
+                                    </div>
+                                    <div class="day">
+                                    <h3 class="day-label">11</h3>
+                                    <div class="event event-start event-end" data-span="1">Lab Test</div>
+                                    </div>
+                                    <div class="day">
+                                    <h3 class="day-label">12</h3>
+                                    </div>
+                                    <div class="day">
+                                    <h3 class="day-label">13</h3>
+                                    <div class="event event-start event-end" data-span="1">Lecture A1</div>
+                                    </div>
+                                    <div class="day">
+                                    <h3 class="day-label">14</h3>
+                                
+                                    </div>
+                                </div>
+
+
+
+                                <div class="week">
+                                        <div class="day">
+                                        <h3 class="day-label">15</h3>
+                                        
+                                        </div>
+                                        <div class="day">
+                                        <h3 class="day-label">16</h3>
+                                        
+                                        </div>
+                                        <div class="day">
+                                        <h3 class="day-label">17</h3>
+                                        </div>
+                                        <div class="day">
+                                        <h3 class="day-label">18</h3>
+                                        
+                                        </div>
+                                        <div class="day">
+                                        <h3 class="day-label">19</h3>
+                                        <div class="event event-start event-end" data-span="1">Lab Test</div>
+                                        </div>
+                                        <div class="day">
+                                        <h3 class="day-label">20</h3>
+                                        
+                                        </div>
+                                        <div class="day">
+                                        <h3 class="day-label">21</h3>
+                                        <div class="event event-start event-end" data-span="1">Lecture A1</div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="week">
+                                            <div class="day">
+                                            <h3 class="day-label">22</h3>
+                                            </div>
+                                            <div class="day">
+                                            <h3 class="day-label">23</h3>
+                                            
+                                            </div>
+                                            <div class="day">
+                                            <h3 class="day-label">24</h3>
+                                            <div class="event event-start event-end" data-span="1">Extra Tute Class</div>
+                                            </div>
+                                            <div class="day">
+                                            <h3 class="day-label">25</h3>
+                                            <div class="event event-start event-end" data-span="1">Lecture B3</div>
+                                            </div>
+                                            <div class="day">
+                                            <h3 class="day-label">26</h3>
+                                            
+                                            </div>
+                                            <div class="day">
+                                            <h3 class="day-label">27</h3>
+                                            <div class="event event-start event-end" data-span="1">Assignmnet 1</div>
+                                            </div>
+                                            <div class="day">
+                                            <h3 class="day-label">28</h3>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="week">
+                                                <div class="day">
+                                                <h3 class="day-label">29</h3>
+                                                </div>
+                                                <div class="day">
+                                                <h3 class="day-label">30</h3>
+                                                <div class="event event-start event-end" data-span="1">Evaluation B2</div>
+                                                </div>
+                                                <div class="day">
+                                                <h3 class="day-label">*</h3>
+                                                </div>
+                                                <div class="day">
+                                                <h3 class="day-label">*</h3>
+                                                </div>
+                                                <div class="day">
+                                                <h3 class="day-label">*</h3>
+                                            
+                                                </div>
+                                                <div class="day">
+                                                <h3 class="day-label">*</h3>
+                                                </div>
+                                                <div class="day">
+                                                <h3 class="day-label">*</h3>
+                                                </div>
+                                            </div>
+                        </table>
+                        </div>
+                </div>
+
+                <div class="col-md-5">
+                    <br><br>
+                        <div class="cardn">
+                            <div class="containern" style="background-color: rgb(207, 207, 235); padding: 3%">
+                                <h4><b>Add Event</b></h4> 
+                            </div>                      
+                        </div>
+
+                        <div>
+                                <form>
+                                    <br>
+                                    <form>
+                                        Select Date & Time: <input type="datetime-local" name="dt">
+                                        &nbsp;&nbsp;&nbsp;&nbsp;<button class="btndialog"  style="background-color: lightblue;font-size: 20px; border-radius: 6px;width: 90px; height: 40px;">Submit</button>
+            
+                                    </form> 
+                                  <label for="fname" style="width: 50%">Event Title</label>
+                                  <input type="text" id="fname" name="Event Title" placeholder="event title..">
+                              
+                                  <label for="lname" style="width: 50%">Description</label>
+                                    <textarea type="text" id="subject" name="subject" placeholder="Write something.." style="height:200px">
+                                    </textarea>
+                              
+                                  <br>
+                                  <br>
+                                  
+                                  <button class="btndialog"  onclick="document.getElementById('modal-wrapper3').style.display='block'" style="background-color: rgb(154, 154, 231);font-size: 16px; border-radius: 6px;width: 90px; height: 40px;">Add Event</button>
+
+                                  </form>
+                              </div>
+                              
+                </div>
+                
+            </div>
+        </div>
+</div>
+</mat-drawer-container>
+
+
+
+<div id="modal-wrapper3" class="modal">
+  
+    <form class="modal-content animate" action="/action_page.php">
+          
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('modal-wrapper3').style.display='none'" class="close" >&times;</span>
+        
+        <h2 style="text-align:center">Want to Add this Data </h2>
+        <br>
+      </div>
+      <div class="popupwindow">
+            &nbsp;&nbsp;&nbsp;<button class="btndialog">Yes</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="btndialog">No</button> 
+      </div> 
+    </form>
+</div>
+
+  <script>
+      // If user clicks anywhere outside of the modal, Modal will close
+      
+      var modal = document.getElementById('modal-wrapper3');
+      window.onclick = function(event) {
+          if (event.target == modal) {
+              modal.style.display = "none";
+          }
+      }
+    </script>
+
+<div id="modal-wrapper4" class="modal">
+  
+    <form class="modal-content animate" action="/action_page.php">
+          
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('modal-wrapper4').style.display='none'" class="close" >&times;</span>
+        <div class="w3-container">
+            <div class="w3-panel w3-pale-red w3-leftbar w3-border-red">
+              <b style="color: black; font-size: 16px;padding-left: 1%;">Assignmnet for IAS</b>
+              <p style="padding-left: 1%">Assignment deadline for the Information Assuarance & Security module has been scheduled to 3rd October. </p>
+              <br>
+              <b style="color: black; font-size: 16px;padding-left: 1%;">Las Session</b>
+              <p style="padding-left: 1%">Lab session for the Programming Application & Frameworks module has been scheduled to 4rd October in L201 at 10.30am-12.30pm </p>
+              <br>
+              <b style="color: black; font-size: 16px;padding-left: 1%;">Seminar</b>
+              <p style="padding-left: 1%">A seminar for all the students of class A will be held on main hall on 5th Friday October. Attendance compulsory </p>
+            </div>
+          </div>
+      </div> 
+    </form>
+</div>
+
+  <script>
+      // If user clicks anywhere outside of the modal, Modal will close
+      
+      var modal = document.getElementById('modal-wrapper4');
+      window.onclick = function(event) {
+          if (event.target == modal) {
+              modal.style.display = "none";
+          }
+      }
+    </script>
+
+</body>
+
+<router-outlet></router-outlet>
